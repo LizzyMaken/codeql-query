@@ -23,7 +23,7 @@ jobs:
         # Configure the init action in the .github/workflows/codeQL.yml
         # workflow file to use the .github/codeql/codeql-config.yml configuration file as input.
         with:
-          config-file: .github/codeql/codeql-config.yml
+          config-file: ./.github/codeql/codeql-config.yml
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v1
